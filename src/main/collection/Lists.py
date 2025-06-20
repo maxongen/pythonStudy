@@ -1,0 +1,30 @@
+#List can be declared using []
+
+myList=[1,2,3]
+print("list ",myList)
+myList.append(4)
+print("list append : ",myList)
+myList.insert(1,5)
+print("list insert : ",myList)
+myList1=[9,10,11,12]
+testList=myList+myList1
+print("list concat using + icon : ",testList)
+myList.extend(myList1)
+print("list extend using another list : ",myList)
+myList.remove(1)
+print("list remove : ",myList)
+myList.insert(0,1)
+print("list insert : ",myList)
+myList.pop()
+print("list pop(remove last element : ",myList)
+myList.sort()
+print("list sort : ",myList)
+myList.reverse()
+print("list reverse : ",myList)
+myList.insert(10,10)
+print("list insert : ",myList)
+myList.insert(9,10)
+print("list insert : ",myList)
+index_cherry = myList.index(9,0,10)
+print("list contains 10 present : ",myList.count(10)," times")
+print("start list index of 9 : ",index_cherry)
