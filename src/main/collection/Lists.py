@@ -1,5 +1,5 @@
 #List can be declared using []
-# Lists are case sensitive
+# Lists are case-sensitive
 myList=[1,2,3]
 print("list ",myList)
 myList.append(4)
@@ -29,3 +29,4 @@ index_cherry = myList.index(9,0,len(myList)-1)
 print("list contains 10 present : ",myList.count(10)," times")
 print("start list index of 9 : ",index_cherry)
 print("length of list : ",len(myList))
+print("list 3rd index value : ",myList[3])
