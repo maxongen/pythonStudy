@@ -1,0 +1,12 @@
+print("------------Access Tuple Items--------------")
+tuple1=("test","test1","test2")
+print("0th index obj - ",tuple1[0])
+print(tuple1)
+print("Negative Indexing(reverse indexing) - ",tuple1[-1],tuple1[-2])
+print("range of indexes(from beginning) - ",tuple1[1:3])
+print("By leaving out the start value, tuple1[:3] - ",tuple1[:3])
+print("By leaving out the end value, tuple1[0:] - ",tuple1[0:])
+print("range of negative indexes(from end) - ",tuple1[-3:-1])
+print("----Check if Item Exists-----")
+if "test" in tuple1:
+  print("Yes, 'test' is in the tuple")
