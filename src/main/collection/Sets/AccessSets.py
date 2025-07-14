@@ -6,3 +6,9 @@ for fruit in fruitSet:
 
 print("banana" in fruitSet)
 print("banana" not in fruitSet)
+
+print("------iterator in sets---------")
+myItr=iter(fruitSet)
+print(next(myItr))
+print(next(myItr))
+print(next(myItr))
