@@ -3,8 +3,10 @@
 # The intersection() method keeps ONLY the duplicates.
 # The difference() method keeps the items from the first set that are not in the other set(s).
 # The symmetric_difference() method keeps all items EXCEPT the duplicates.
+import PythonSets
 
-fruitSet = {"apple", "banana", "cherry", "orange"}
+fruitSet = PythonSets.fruitSet
+
 seasonSet={"winter", "spring", "summer","orange"}
 set1=fruitSet.union(seasonSet)
 

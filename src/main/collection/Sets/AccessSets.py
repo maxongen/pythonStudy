@@ -1,4 +1,6 @@
-fruitSet = {"apple", "banana", "cherry", "apple"}
+import PythonSets
+
+fruitSet = PythonSets.fruitSet
 
 print("access set using loop(for or while)")
 for fruit in fruitSet:

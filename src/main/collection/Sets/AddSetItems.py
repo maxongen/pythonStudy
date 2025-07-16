@@ -1,4 +1,6 @@
-fruitSet = {"apple", "banana", "cherry", "apple"}
+import PythonSets
+
+fruitSet = PythonSets.fruitSet
 
 fruitSet.add("orange")
 print("add method - ",fruitSet)

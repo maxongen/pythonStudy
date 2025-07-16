@@ -1,4 +1,6 @@
-fruitSet = {"apple", "banana", "cherry", "orange"}
+import PythonSets
+
+fruitSet = PythonSets.fruitSet
 
 print("remove method will remove item from set but if its not present it will throw error")
 fruitSet.remove("banana")
