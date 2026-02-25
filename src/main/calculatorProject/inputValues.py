@@ -12,6 +12,7 @@ def get_number(message):
       print("Input cannot be empty")
       continue
     
+    
     try:
       return float(value)
     except ValueError:
