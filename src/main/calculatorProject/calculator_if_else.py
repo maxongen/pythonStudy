@@ -1,24 +1,21 @@
-operationVal=input("Please select any option number(e.g. 1, 2, 3, 4) : ")
-number1=float(input("Enter First Number : "))
-number2=float(input("Enter Second Number : "))
+from inputValues import get_inputs
 
+operationVal, number1, number2 = get_inputs()
 
+ 
 if operationVal=="1":
   print("Addition of ",number1," and ",number2)
-  number3=number1+number2
-  print("Addition : ",number3)
+  print("Addition : ",number1+number2)
 elif operationVal=="2":
   print("Substraction of ",number1," and ",number2)
-  number3=number1-number2
-  print("Substraction : ",number3)
+  print("Substraction : ",number1-number2)
 elif operationVal=="3":
   print("Multiplication of ",number1," and ",number2)
-  number3=number1*number2
-  print("Multiplication : ",number3)
+  print("Multiplication : ",number1*number2)
 elif operationVal=="4":
   print("Division of ",number1," and ",number2)
-  number3=number1/number2
-  print("Division : ",number3)
+  print("Division : ",number1/number2)
 else:
   print("provided wrong operation type")
+
 
