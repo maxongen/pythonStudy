@@ -1,6 +1,7 @@
-from inputValues import get_inputs
+from inputValues import get_inputs_operation_val,get_number_input
 
-operationVal, number1, number2 = get_inputs()
+operationVal = get_inputs_operation_val()
+number1, number2 = get_number_input()
 
  
 if operationVal=="1":
